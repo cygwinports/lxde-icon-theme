@@ -1,8 +1,13 @@
+NAME="lxde-icon-theme"
+VERSION=0.5.1
+RELEASE=1
 CATEGORY="LXDE"
 SUMMARY="LXDE icon theme"
 DESCRIPTION="nuoveXT2 icon theme for the LXDE desktop environment"
 HOMEPAGE="http://lxde.org/"
-SRC_URI="mirror://sourceforge/lxde/${P}.tar.bz2"
+SRC_URI="mirror://sourceforge/lxde/${NAME}-${VERSION}.tar.xz"
 PATCH_URI="0.0.1-vpath.patch"
 
-REQUIRES="hicolor-icon-theme tango-icon-theme"
+ARCH=noarch
+
+REQUIRES="hicolor-icon-theme"
